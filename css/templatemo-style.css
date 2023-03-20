@@ -164,12 +164,19 @@ a:hover { text-decoration: none; }
 }
 .tm-home-logo {
 	font-size: 64px;
-	color: #9C0;
+    text-transform: none;
+	color: #ffffff;
+
+    /*Shadow*/
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 5.5);
 }
 .tm-home-header {
-  font-size: 36px;
-  font-style: normal;
-  text-transform: none;
+    font-size: 36px;
+    font-style: normal;
+    text-transform: none;
+
+    /*Shadow*/
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 .tm-home .btn {
   background: #ffffff;
@@ -197,7 +204,7 @@ a:hover { text-decoration: none; }
   background: #ffffff;
   -webkit-box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
           box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
-  cursor: pointer;
+  /*cursor: pointer;*/
   padding-top: 60px;
   padding-bottom: 60px;
   margin-top: -40px;
@@ -221,9 +228,9 @@ a:hover { text-decoration: none; }
 .tm-icons .tm-icon-2 {
   border-right: 1px solid #f9f9f9;
 }
-.tm-icons .tm-icon-1:hover { background: #9C9; }
-.tm-icons .tm-icon-2:hover { background: #9CF; }
-.tm-icons .tm-icon-3:hover { background: #CC9; }
+/*.tm-icons .tm-icon-1:hover { background: #9C9; }*/
+/*.tm-icons .tm-icon-2:hover { background: #9CF; }*/
+/*.tm-icons .tm-icon-3:hover { background: #CC9; }*/
 
 /* about section */
 .tm-about {
